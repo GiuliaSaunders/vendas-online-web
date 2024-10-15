@@ -27,14 +27,14 @@ export const ContainerLogin = styled.div`
     width: 100%;
     height: 100vh;
     max-width: 646px;
-    z-index: 2;
+    z-index: 1;
 `;
 
 export const LimitedContainer = styled.div`
     width: 100%;
     max-width: 498px;
-    background-color: blue;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 `;
 
